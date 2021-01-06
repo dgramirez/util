@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But descend into directories
+!*/
+
+# Allow Git Ignore
+!/.gitignore
+
+### THE GIT IGNORE FILE IS BASED ON A WHITELIST ###
+### SPECIFY THE ENTIRE FILEPATH TO ADD AND ITEM ###
+### USE "*" AFTER DIRECTORY TO ADD ALL ITEMS    ###
+### USE "**" AFTER DIRECTORY TO ADD RECURSIVELY ###
+### THE USERS MUST ADD ALL NEEDED ITEMS BELOW   ###
+
+# Root Directory
+!/README.md
