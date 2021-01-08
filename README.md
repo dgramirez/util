@@ -45,7 +45,7 @@ Simply follow the instructions provided by the build2 installation page.
 
 ###### GCC 11 (devel)
 
-As of this writing, there will be a script (build.sh) which would attempt to build the project directly. This will change when either an official release of GCC releases version 11 or the Development build is able to compile with the flag `-fdirectives-only`. If anyone knows how to remove that flag from Build2 please e-mail me at dgramirez@protonmail.com and I will gladly un-strike the directions below. Until then, read over the script and if you feel comfortable that it won't expose your machine, execute it.
+As of this writing, there will be a script (build-gcc11-dev.sh) which would attempt to build the project directly. This will change when either an official release of GCC releases version 11 or the Development build is able to compile with the flag `-fdirectives-only`. If anyone knows how to remove that flag from Build2 please e-mail me at dgramirez@protonmail.com and I will gladly un-strike the directions below. Until then, read over the script and if you feel comfortable that it won't expose your machine, execute it.
 
 ~~As of typing this README.md, the GCC 10.2 will not be able to compile the project. Due to this, the user must build GCC Development Branch from source and link that to Build2 Installation.~~
 
@@ -64,5 +64,5 @@ sh build2-install-0.13.0.sh --cxx /path/to/g++
 
 ## Modules
 
-### hello-world.mxx
-A temporary module which prints "Hello, World" on the console. Designed to be imported into a project to make sure the module support works. Will be removed once Unit Testing is ready.
+### test.mxx
+A temporary module which provides a print function, primarily to print "Hello, World" on the console. Designed to be imported into a project to make sure the module support works. Will be removed once Unit Testing is ready.

@@ -1,0 +1,9 @@
+//Module Fragment
+module;
+#include <stdio.h>
+
+//Module Purview
+export module test;
+export void print(const char* _str){
+	printf("%s\n", _str);
+}

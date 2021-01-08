@@ -13,5 +13,14 @@
 ### USE "**" AFTER DIRECTORY TO ADD RECURSIVELY ###
 ### THE USERS MUST ADD ALL NEEDED ITEMS BELOW   ###
 
-# Root Directory
+# Root directory
 !/README.md
+
+# Include directory
+!/include/test.mxx
+
+# Scripts directory
+!/scripts/build-gcc11-dev.sh
+
+# Unit Test directory
+!/ut/main.cpp
